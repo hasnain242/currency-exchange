@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -9,13 +10,19 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0%;
+    margin: 0;
     padding: 20px;
 }
-h1{
+
+h1 {
     color: darkgreen;
 }
-.btn{
+
+p {
+    text-align: center;
+}
+
+.btn {
     color: white;
     background-color: darkgreen;
     cursor: pointer;
@@ -23,34 +30,40 @@ h1{
     font-size: 12px;
     padding: 5px 10px;
 }
-.curr{
+
+.currency {
     padding: 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.curr select{
+
+.currency select {
     padding: 10px 20px 10px 10px;
     border: 1px solid gray;
     font-size: 16px;
     background: transparent;
 }
-.curr input{
+
+.currency input {
     border: 0;
     background: transparent;
     font-size: 24px;
     text-align: right;
 }
-.swap-rates.container{
+
+.swap-rate-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.rate{
+
+.rate {
     color: darkgreen;
     font-size: 16px;
     padding: 0 10px;
 }
-select:focus,input:focus ,button:focus{
+
+select:focus, input:focus, button:focus {
     outline: 0;
 }
